@@ -18,7 +18,7 @@ public class Main {
             fileWriter = new FileWriter(args[0]);
         } else throw new RuntimeException("file error");
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 100; i++) {
             fetchAPIData();
         }
 
